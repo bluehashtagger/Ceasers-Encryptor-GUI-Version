@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Ceasers_Encryptor_GUI_Version</RootNamespace>
+    <!--<Nullable>enable</Nullable>-->
+    <UseWPF>true</UseWPF>
+    <StartupObject>Ceasers_Encryptor_GUI_Version.App</StartupObject>
+    <PackageIcon>download.png</PackageIcon>
+    <Authors>Zachary Bagshaw</Authors>
+    <Company>NYSC</Company>
+    <Product>Ceasers Encyptor</Product>
+    <Version>1.0.0</Version>
+    <Description>Simple text-based encyptor</Description>
+    <ApplicationIcon>download.ico</ApplicationIcon>
+    <SignAssembly>True</SignAssembly>
+    <AssemblyOriginatorKeyFile>CeasersEncyptor.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="download.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\Downloads\download.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
